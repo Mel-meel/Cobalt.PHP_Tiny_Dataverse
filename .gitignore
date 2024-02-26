@@ -1,2 +1,4 @@
 /vendor/
 /composer.lock
+/src/a.CSVImporter.php
+/src/a.Dataframe.php
