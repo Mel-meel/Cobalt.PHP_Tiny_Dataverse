@@ -1,0 +1,22 @@
+{
+    "name": "cobalt/php_tiny_dataverse",
+    "type": "library",
+    "require": {
+        "phpstan/phpstan": "^1.10"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.10"
+    },
+    "license": "GNU GPL v3",
+    "autoload": {
+        "psr-4": {
+            "Cobalt\\PhpTinyDataverse\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mel-meel",
+            "email": "mel.avizou@mail.ru"
+        }
+    ]
+}
