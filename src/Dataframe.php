@@ -9,7 +9,7 @@ class Dataframe implements \ArrayAccess, \Countable, \IteratorAggregate {
      */
     private array $formated_data ;
 
-    purblic class __construct(?array $data = null, ?array $headers = null, bool $is_vertical = false) {
+    public function __construct(?array $data = null, ?array $headers = null, bool $is_vertical = false) {
         if ($data === null) {
             if (! self::empty_frames()) {
                 throw new \InvalidArgumentException("Input data can not be null. A valid array must be given.") ;
